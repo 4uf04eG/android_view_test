@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_schedule"
+        android:icon="@drawable/bottom_nav_ic_schedule_4dp"
+        android:title="@string/app_name" />
+    <item
+        android:id="@+id/navigation_call_schedule"
+        android:icon="@drawable/bottom_nav_ic_list_24dp"
+        android:title="@string/nav_call_schedule" />
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/bottom_nav_ic_more_horiz_24dp"
+        android:title="@string/nav_more" />
+</menu>

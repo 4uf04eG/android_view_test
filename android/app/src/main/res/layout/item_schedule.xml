@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="@dimen/schedule_item_margin"
+    android:layout_marginRight="@dimen/schedule_item_margin"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/schedule_item_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/schedule_item_margin"
+            android:layout_marginStart="@dimen/schedule_item_margin"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="19sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:lines="2" />
+
+        <LinearLayout
+            android:id="@+id/schedule_item_type_container"
+            android:layout_width="14dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/schedule_item_margin"
+            android:layout_marginRight="@dimen/schedule_item_margin"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/schedule_item_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:lineSpacingMultiplier="0.8"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/schedule_item_margin"
+            android:layout_marginEnd="@dimen/schedule_item_margin"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/schedule_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/schedule_item_margin"
+                android:textStyle="bold"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/schedule_item_teacher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:drawableLeft="@drawable/more_ic_teacher_24dp"
+                    android:drawableStart="@drawable/more_ic_teacher_24dp" />
+
+                <TextView
+                    android:id="@+id/schedule_item_class_room"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:drawableLeft="@drawable/more_ic_place_24dp"
+                    android:drawableStart="@drawable/more_ic_place_24dp" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/schedule_item_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/schedule_item_margin"
+                android:layout_marginBottom="@dimen/schedule_item_margin"
+                android:background="?attr/actionBarDivider"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/schedule_item_2nd_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/schedule_item_margin"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:weightSum="20">
+
+                <TextView
+                    android:id="@+id/schedule_item_2nd_teacher"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12"
+                    android:drawableLeft="@drawable/more_ic_teacher_24dp"
+                    android:drawableStart="@drawable/more_ic_teacher_24dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/schedule_item_2nd_class_room"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:drawableLeft="@drawable/more_ic_place_24dp"
+                    android:drawableStart="@drawable/more_ic_place_24dp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

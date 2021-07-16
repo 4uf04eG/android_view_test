@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43305e</color>
+    <color name="colorPrimaryDark">#8043305e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="colorHintTextLight">#AFFFFFFF</color>
+    <color name="colorPrimaryDarkTheme">#1E1E1E</color>
+    <color name="colorOverscroll">#CC57595D</color>
+</resources>

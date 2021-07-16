@@ -1,0 +1,49 @@
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/more_header_actions">
+
+        <Preference
+            app:icon="@drawable/actions_ic_open_in_browser_24dp"
+            app:key="open_online"
+            app:title="@string/nav_online" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/nav_settings">
+
+        <com.example.android_view_test.scheduleapp.ui.GroupPreference app:title="@string/more_group" />
+
+        <SwitchPreference
+            app:icon="@drawable/more_ic_week_switch_24dp"
+            app:key="auto_week_change"
+            app:title="@string/more_auto_set_week"
+            app:useSimpleSummaryProvider="true" />
+
+        <com.example.android_view_test.scheduleapp.ui.WeekPreference app:title="@string/more_study_week" />
+
+        <SwitchPreference
+            app:disableDependentsState="true"
+            app:icon="@drawable/more_ic_invert_colors_24dp"
+            app:key="dark_theme"
+            app:title="@string/more_dark_theme"
+            app:useSimpleSummaryProvider="true" />
+
+        <com.example.android_view_test.scheduleapp.ui.ColorPickerPreference
+            app:dependency="dark_theme"
+            app:icon="@drawable/more_ic_color_lens_24dp"
+            app:key="primary_color"
+            app:title="@string/more_color_change" />
+
+        <com.example.android_view_test.scheduleapp.ui.UpdatePreference
+            app:entries="@array/update_frequency"
+            app:entryValues="@array/update_frequency_values"
+            app:icon="@drawable/more_ic_update_24dp"
+            app:key="schedule_update_frequency"
+            app:title="@string/more_update_frequency" />
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

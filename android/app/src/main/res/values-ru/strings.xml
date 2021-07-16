@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Расписание</string>
+
+    <string name="nav_call_schedule">Звонки</string>
+    <string name="nav_online">Открыть в браузере</string>
+    <string name="nav_more">Ещё</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="group_selection">Выберите свою группу</string>
+    <string name="groups_year">Курс:</string>
+    <string name="connection_error">Не удалось загрузить группы. Пожалуйста, проверьте подключение к интернету</string>
+    <string name="groups_retry">Обновить</string>
+
+    <string name="call_schedule">
+        1-ая пара: 8:00–9:30
+        \n2-ая пара: 9:40–11:10
+        \n3-ая пара: 11:30–13:00
+        \n4-ая пара: 13:10–14:40
+        \n5-ая пара: 14:50–16:20
+        \n6-ая пара: 16:30–18:00
+        \n7-ая пара: 18:10–19:40
+        \n8-ая пара: 19:50–21:20
+    </string>
+
+    <string name="more_dark_theme">Тёмная тема</string>
+    <string name="more_color_change">Основной цвет</string>
+    <string name="more_color_title">Выберите цвет</string>
+    <string name="more_group">Группа</string>
+    <string name="more_study_week">Учебная неделя</string>>
+    <string name="more_week_selector">Выберите учебную неделю</string>
+    <string name="more_update_frequency">Частота обновления расписания</string>
+    <string name="more_update_frequency_selector">Выберите частоту обновления расписания</string>
+    <string name="more_auto_set_week">Переключать на текующую неделю</string>
+
+    <string name="confirmation">Принять</string>
+    <string name="cancellation">Отменить</string>
+
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+
+    <string name="channel_name">Уведомления об изменении расписания</string>
+    <string name="channel_description">Используется для отображения уведомлений об обновлении расписания</string>
+    <string name="notification_text">Расписание было обновлено</string>
+
+    <string name="update_every_day">Каждый день</string>
+    <string name="update_every_week">Каждую неделю</string>
+    <string name="update_every_month">Каждый месяц</string>
+    <string name="update_never">Никогда</string>
+
+    <string name="schedule_types_practice">П\nР\nА\nК</string>
+    <string name="schedule_types_lecture">Л\nЕ\nК</string>
+    <string name="schedule_types_lab_work">Л\nА\nБ</string>
+    <string name="schedule_toolbar_subtitle">Сегодня, %1$s</string>
+    <string name="schedule_item_empty_text">В данный день нет занятий</string>
+
+    <string name="preference_not_specified">Не указано</string>
+    <string name="more_header_actions">Действия</string>
+
+    <string name="week_first">Первая</string>
+    <string name="week_second">Вторая</string>
+    <string name="week_third">Третья</string>
+    <string name="week_fourth">Четвёртая</string>
+
+    <string name="toolbar_week_w1">Н1</string>
+    <string name="toolbar_week_w2">Н2</string>
+    <string name="nav_flutter">Открыть Flutter</string>
+</resources>

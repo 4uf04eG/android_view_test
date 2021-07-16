@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             Flutter draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarTheme">@style/AppTheme.AppBarOverlay</item>
+        <item name="android:fontFamily">@font/liberation_sans_regular</item>
+        <item name="android:colorEdgeEffect">@color/colorOverscroll</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="BottomNavigationTheme">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/colorHintTextLight</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ToolbarThemeTitle">
+        <item name="android:fontFamily">@font/pattaya_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarThemeSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorHintTextLight</item>
+    </style>
+
+    <style name="TabLayoutTheme" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="WeekChangeButtonTheme">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textColor">@drawable/toolbar_rounded_week_text_color</item>
+        <item name="android:background">@drawable/toolbar_rounded_week</item>
+        <item name="android:foreground">@drawable/toolbar_ripple</item>
+        <item name="android:button">@null</item>
+        <item name="android:onClick">onWeekChangeButtonClicked</item>
+    </style>
+
+</resources>

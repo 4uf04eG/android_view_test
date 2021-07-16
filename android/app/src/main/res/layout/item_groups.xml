@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:onClick="writeGroupToSharedStorage"
+    android:paddingStart="35dp"
+    android:paddingLeft="35dp"
+    android:paddingTop="13dp"
+    android:paddingEnd="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="13dp"
+    android:textSize="18sp" />
